@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+.scroll-container {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    max-height: 100vh;
+}
+
+.page {
+    scroll-snap-align: start;
+}
+
+#bg-1 {
+    background-image: url("../Images/index-bg.webp");
+}
+
+#bg-2 {
+    background-image: url("../Images/more1-bg.jpg");
+}
+
+#bg-3 {
+    background-image: url("../Images/more2-bg.jpg");
+}
+
+#bg-4 {
+    background-image: url("../Images/more3-bg.jpg");
+}
+
+.bg-image {
+    /* image settings */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #010F19;
+    /* flex settings */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 8vh;
+
+    height: 13%;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.user-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.user-link {
+    color: #FFF;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 3vh;
+    text-decoration: none;
+    border-style: solid;
+    border-width: .3vh;
+    border-color: #FFF;
+    border-radius: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.more-scroll {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    justify-content: center;
+    align-self: center;
+}
+
+.more-bottom {
+    color: white;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vh;
+    align-self: center;
+}
+
+.arrow {
+    height: 14vh;
+    width: auto;
+    align-self: center;
+}
+
+.text-page-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+
+.vertical-line {
+    height: 80%;
+    align-self: center;
+    border-left: 3px solid #FFF;
+    margin: 0px;
+}
+
+.text-1 {
+    align-self: center;
+    text-align: right;
+    width: 50%;
+    max-width: 400px;
+    min-width: 100px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.text-2 {
+    line-height: 35px;
+    align-self: center;
+    text-align: left;
+    width: 50%;
+    max-width: 400px;
+    min-width: 100px;
+    height: 60%;
+    max-height: 600px;
+    overflow: hidden;
+    bottom: 50%;
+    top: 50%;
+    transform: translate(0%,10%);
+}
+
+.text-page-4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+.text-3 {
+    height: 25%;
+    text-align: center;
+
+}
+
+.text-4 {
+    height: 100%;
+    text-align: center;
+    width: 50%;
+    max-width: 600px;
+}
+
+.horizontal-line-1 {
+    height: 100%;
+    width: 40%;
+    align-self: center;
+    border-top: 3px solid #FFF;
+    margin: 20px;
+}
+
+.horizontal-line-2 {
+    height: 100%;
+    width: 40%;
+    align-self: center;
+    border-bottom: 3px solid #FFF;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.github-icon {
+    height: 40%;
+    min-height: 30px;
+}

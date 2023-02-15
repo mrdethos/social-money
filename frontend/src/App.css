@@ -1,3 +1,8 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,26 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bayon', sans-serif;
+  font-size: 8vh;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Barlow', sans-serif;
+}
+
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+}
+
+
