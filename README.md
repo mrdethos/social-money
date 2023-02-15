@@ -1,2 +1,2 @@
 # social-money
-A forum that allows users to discuss about stocks (obviously WIP)
+A forum-like site that allows users to discuss about stocks (obviously WIP)
